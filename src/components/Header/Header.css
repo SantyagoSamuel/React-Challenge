@@ -1,0 +1,39 @@
+.header {
+    background: linear-gradient(207.8deg, #491f8e 16.69%, #ffffff 100%);
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    /* background: linear-gradient(207.8deg, #201E1C 16.69%, #a61af7 100%); */
+}
+
+.logo-dassa-container {
+    width: 33vw;
+    height: auto;
+    margin: 0 0 0 25px;
+}
+.logo-dassa {
+    height: 40px;
+    padding: 5px;
+}
+
+.search-wrapper {
+    width: 33vw;
+}
+.search-wrapper .search {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 33vw;
+}
+.navbar-item {
+    list-style: none;
+}
+.navbar-item a {
+    text-decoration: none;
+    color: #F2F4F5;
+}

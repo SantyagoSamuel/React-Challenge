@@ -1,0 +1,24 @@
+.iterable-item {
+    width: 100%;
+    background-color: #fff;
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    box-shadow: -4px 3px 16px -3px rgba(74,71,71,0.75);
+    display: flex;
+    
+}
+.iterable-item .bank-logo {
+    height: 100px;
+}
+.iterable-item .info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+}
+.iterable-item .info .info-name {
+    font-size: 1.4rem;
+}
